@@ -1,0 +1,26 @@
+.search-button {
+  display: flex;
+  justify-content: center;
+}
+.search-button button {
+  padding: 10px 21px;
+  background: hsl(222, 66%, 51%);
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.1rem;
+  border-radius: 3px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  -webkit-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  outline: 0;
+  border: 0;
+  transition: 0.25s;
+  margin-top: 50px;
+}
+
+.search-button button:hover {
+  color: white;
+  background: hsla(214, 66%, 50%, 1);
+}
