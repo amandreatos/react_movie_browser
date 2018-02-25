@@ -5,6 +5,12 @@
   display: flex;
   flex-direction: column;
   list-style: none;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.movie-item:hover {
+  transform: translateY(-7px);
 }
 
 .movie-item img {

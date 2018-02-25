@@ -27,7 +27,7 @@ class Navigation extends React.Component {
         <Slider data={runtime} onChange={onChange} />
 
         <Button onClick={onSearchButtonClick}>
-          Search
+          Search <i className="fas fa-search"></i>
         </Button>
 
       </section>
